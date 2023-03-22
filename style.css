@@ -56,15 +56,13 @@ a {
   width: 50%;
   border: 2px solid black;
   /* margin: 0 5px; */
-  
-  
 }
 
 .left-side-section-1 > a {
-    padding: 7px;
-    background-color: #F2CD5C;
-    border: none;
-    border-radius: 5px;
+  padding: 7px;
+  background-color: #f2cd5c;
+  border: none;
+  border-radius: 5px;
 }
 
 .right-side-section-1 > img {
