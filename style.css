@@ -4,12 +4,28 @@
 
 body {
   margin: 0 auto;
+  background-color: #F2CD5C;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  background-image: linear-gradient(to right, #A61F69, #F2921D);
+}
+
+h4{
+  font-size: 1.5em;
+  color: #F2CD5C;
 }
 
 .container {
   margin: 0 auto;
   width: 1000px;
-  border: 2px solid #f2921d;
+  /* border: 2px solid #f2921d; */
 }
 
 .navBar {
@@ -27,10 +43,7 @@ body {
   /* margin-left: 50px; */
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
+
 
 .logo {
   font-family: cursive;
@@ -51,6 +64,8 @@ a {
   display: flex;
   margin-top: 5%;
   padding: 10px;
+  height: 500px;
+  align-items: center;
 }
 
 .left-side-section-1 {
@@ -62,8 +77,8 @@ a {
 }
 
 .left-side-section-1 > a {
-  padding: 7px;
-  background-color: #f2cd5c;
+  padding: 10px;
+  background-color: #F2921D;
   border: none;
   border-radius: 5px;
 }
@@ -78,18 +93,20 @@ text-align: justify;
   
 }
 
-.right-side-section-1 > img {
-  width: 300px;
-  height: auto;
-  border-radius: 10px;
-}
-
 .right-side-section-1 {
   /* border: 2px solid black; */
   text-align: center;
   padding: 5px;
   width: 50%;
 }
+
+.right-side-section-1 > img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+
 
 .section-2{
   margin-top: 5%;
@@ -152,7 +169,11 @@ text-align: justify;
   
 }
 
-.description:hover{
+.picture-1 > article:hover,
+.picture-2 > article:hover,
+.picture-3 > article:hover,
+.picture-4 > article:hover,
+.picture-5 > article:hover{
   border: 1px solid black;
   border-radius: 10px;
   background-image: linear-gradient(to right, #F2CD5C, #F2921D);
@@ -171,4 +192,37 @@ text-align: justify;
 .quote-author{
   font-size: large;
   text-align: right;
+}
+
+.section-4{
+  display: flex;
+  border: 2px solid black;
+  margin-top: 5%;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: #A61F69;
+}
+
+.right-section-4{
+  border: 2px solid #F2CD5C;
+  /* width: 50%; */
+  margin-left: 15%;
+  margin-right: 10%;
+  padding: 10px;
+  border-radius: 5px;
+  color: #F2CD5C;
+  background-color: #F2CD5C;
+}
+
+.right-section-4:hover{
+  background-image: linear-gradient(to right, #A61F69, #F2921D);
+}
+
+footer{
+  margin-top: 5%;
+  text-align: center;
+  background-color: #F2CD5C;
+  padding: 1%;
 }
