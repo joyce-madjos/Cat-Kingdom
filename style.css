@@ -14,7 +14,7 @@ body {
 
 .navBar {
   display: flex;
-  background-color: #f2921d;
+  background-color: #F2CD5C;
   /* border: 2px solid black; */
   align-items: center;
   top: 0;
@@ -47,6 +47,7 @@ a {
 }
 
 .section-1 {
+  background-color: #F2CD5C;
   display: flex;
   margin-top: 5%;
   padding: 10px;
@@ -54,7 +55,9 @@ a {
 
 .left-side-section-1 {
   width: 50%;
-  border: 2px solid black;
+  padding-left: 5%;
+  padding-top: 2%;
+  /* border: 2px solid black; */
   /* margin: 0 5px; */
 }
 
@@ -65,6 +68,16 @@ a {
   border-radius: 5px;
 }
 
+.left-side-section-1 > p{
+text-align: justify;
+}
+
+.left-side-section-1 > h1{
+  font-size: 30px;
+  margin: auto;
+  
+}
+
 .right-side-section-1 > img {
   width: 300px;
   height: auto;
@@ -72,13 +85,90 @@ a {
 }
 
 .right-side-section-1 {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   text-align: center;
   padding: 5px;
   width: 50%;
 }
 
-.right-side-section-1 > p {
+.section-2{
+  margin-top: 5%;
+}
+
+.catPicture{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  
+}
+
+.cat-pictures{
+  width: 180px;
+  height: 133px;
+  border-radius: 10px;
+}
+
+.credits {
   font-size: small;
-  margin: 0;
+  margin: auto;
+  padding: 0px;
+  text-align: center;
+}
+
+.picture-1,
+.picture-2,
+.picture-3,
+.picture-4,
+.picture-5{
+  /* border: 2px solid black; */
+  width: 20%;
+  margin-right: 7px;
+  /* padding: px; */
+}
+
+.picture-3 > img{
+  height: 133px;
+  width: auto;
+  margin: 0 20%;
+}
+
+.picture-5 > img{
+  height: 133px;
+  width: auto;
+  margin: 0 20%;
+}
+
+.picture-1{
+  margin-left: 5px;
+}
+
+ h3{
+  text-align: center;
+}
+
+.description{
+  text-align: justify;
+  padding: 5px 10px;
+  
+}
+
+.description:hover{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #F2CD5C, #F2921D);
+
+}
+
+.section-3{
+  border-left: 0.3em solid #400E32;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 7%;
+  font-size: 3em;
+}
+
+.quote-author{
+  font-size: large;
+  text-align: right;
 }
